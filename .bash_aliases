@@ -1,0 +1,5 @@
+alias wf-facebook="cd ~/Projects/facebook-careers"
+alias wf-static="cd ~/Projects/static"
+alias brake="bundle exec rake"
+alias reset-database="bundle exec rake db:migrate:reset db:test:prepare db:seed"
+alias update-vim="curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh"
