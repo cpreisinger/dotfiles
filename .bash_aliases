@@ -9,3 +9,5 @@ alias display-controller-diagram='eog controllers.png'
 alias display-model-diagram='eog models.png'
 alias gd-model-diagram='generate-model-diagram && display-model-diagram'
 alias gd-controller-diagram='generate-controller-diagram && display-controller-diagram'
+alias git-delete-merged='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
+alias reset-and-test="rake db:migrate:reset db:test:prepare db:seed && rake"
