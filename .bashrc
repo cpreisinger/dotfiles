@@ -117,3 +117,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 alias tmux="TERM=screen-256color-bce tmux"
 export PATH="/usr/local/bin:$PATH"
+source ~/.rvm/scripts/rvm
+
+source /home/chris/Libraries/ansible/hacking/env-setup > /dev/null
