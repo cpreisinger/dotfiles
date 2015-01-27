@@ -77,6 +77,5 @@ export PATH="/home/chris/Libraries/ansible/bin:/usr/local/bin:/home/chris/Librar
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-source /home/chris/Libraries/ansible/hacking/env-setup > /dev/null
-
+#
 export CHEF_REPO="/home/chris/Projects/Traitify/chef-repo/"

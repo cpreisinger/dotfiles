@@ -12,5 +12,8 @@ alias git-delete-merged='git branch --merged master | grep -v "\* master" | xarg
 alias reset-and-test="rake db:migrate:reset db:test:prepare db:seed && rake"
 
 alias update-ubuntu="sudo apt-get update && sudo apt-get upgrade -y"
-alias update-vim="curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh && rm spf13-vim.sh"
-alias update-oh-my-zsh="curl -L http://install.ohmyz.sh | sh"
+alias update-vim="vim +BundleUpdate +qall"
+#alias update-vim="curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh && rm spf13-vim.sh"
+#alias update-oh-my-zsh="curl -L http://install.ohmyz.sh | sh"
+
+alias traitify-release="sh ~/Scripts/traitify-release.sh"

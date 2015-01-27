@@ -2,6 +2,7 @@
 
 !.gitignore
 !.vimrc.local
+!.vimrc
 !.bash_aliases
 !.bashrc
 !.gitconfig
