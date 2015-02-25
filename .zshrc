@@ -52,7 +52,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git zshmarks)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
@@ -78,4 +78,8 @@ export PATH="/home/chris/Libraries/ansible/bin:/usr/local/bin:/home/chris/Librar
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 #
-export CHEF_REPO="/home/chris/Projects/Traitify/chef-repo/"
+source /etc/environment
+
+export GOPATH="$HOME/Projects/libraries/"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
