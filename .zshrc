@@ -78,8 +78,9 @@ export PATH="/home/chris/Libraries/ansible/bin:/usr/local/bin:/home/chris/Librar
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 #
-source /etc/environment
+source ~/environment
 
 export GOPATH="$HOME/Projects/libraries/"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
